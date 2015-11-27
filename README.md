@@ -5,7 +5,7 @@
 Contao Extension: BirthdayMailer
 ================================
 
-Sends a birthday e-mail to all the members having their birthday on the current day.
+Sends a birthday email to all the members having their birthday on the current day.
 
 
 Installation
@@ -26,7 +26,7 @@ Compatibility
 -------------
 
 - min. Contao version: >= 3.2.0
-- max. Contao version: <  3.5.0
+- max. Contao version: <  3.6.0
 
 
 Dependency
