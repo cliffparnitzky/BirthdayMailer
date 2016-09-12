@@ -3,11 +3,9 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2015 Leo Feyer
+ * Copyright (c) 2005-2016 Leo Feyer
  *
- * @package BirthdayMailer
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @license LGPL-3.0+
  */
 
 
@@ -26,7 +24,13 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'BirthdayMailer\BirthdayMailSender' => 'system/modules/BirthdayMailer/classes/BirthdayMailSender.php',
+	'BirthdayMailer\BirthdayMailSender'   => 'system/modules/BirthdayMailer/classes/BirthdayMailSender.php',
+
+	// Library
+	'BirthdayMailer\Helper\Backend'       => 'system/modules/BirthdayMailer/library/BirthdayMailer/Helper/Backend.php',
+	'BirthdayMailer\Helper\Cron'          => 'system/modules/BirthdayMailer/library/BirthdayMailer/Helper/Cron.php',
+	'BirthdayMailer\Helper\Dca'           => 'system/modules/BirthdayMailer/library/BirthdayMailer/Helper/Dca.php',
+	'BirthdayMailer\Model\BirthdayMailer' => 'system/modules/BirthdayMailer/library/BirthdayMailer/Model/BirthdayMailer.php',
 ));
 
 

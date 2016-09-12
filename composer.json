@@ -9,6 +9,11 @@
       "name":"Cliff Parnitzky",
       "email":"contao@cliff-parnitzky.de",
       "role":"Developer"
+    },
+    {
+      "name":"Richard Henkenjohann",
+      "email":"richardhenkenjohann@googlemail.com",
+      "role":"Developer"
     }
   ],
   "support":{
@@ -18,10 +23,11 @@
   },
   "require":{
     "php":">=5.3",
-    "contao/core":">=3.2.0,<3.5",
+    "contao/core":"~3.2",
     "contao-community-alliance/composer-plugin":"~2.0",
     "friends-of-contao/contao-associategroups":"~1.3",
-    "terminal42/notification_center":"~1.0"
+    "terminal42/notification_center":"~1.0",
+    "codefog/contao-haste":"~4.11"
   },
   "conflict": {
     "contao/core":"3.4.0,3.4.1,3.4.2"
@@ -32,9 +38,7 @@
   "extra":{
     "contao":{
       "sources":{
-        "system/modules/BirthdayMailer":"system/modules/BirthdayMailer",
-        "files/tiny_templates/birthdaymailer_default_de.html": "files/tiny_templates/birthdaymailer_default_de.html",
-        "files/tiny_templates/birthdaymailer_default_en.html": "files/tiny_templates/birthdaymailer_default_en.html"
+        "system/modules/BirthdayMailer":"system/modules/BirthdayMailer"
       }
     },
     "branch-alias": {
