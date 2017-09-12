@@ -1,7 +1,7 @@
 {
 	"name":"cliffparnitzky/birthday-mailer",
-	"description":"Sends a birthday e-mail to all the members having their birthday on the current day.",
-	"keywords":["contao", "birthday", "birthdaymail", "members", "e-mail"],
+	"description":"Sends a birthday email to all the members having their birthday on the current day.",
+	"keywords":["contao", "birthday", "birthdaymail", "members", "email"],
 	"type":"contao-module",
 	"license":"LGPL-3.0+",
 	"authors":[
@@ -18,7 +18,7 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=3.2.0,<3.5",
+		"contao/core":">=3.2.0,<3.6",
 		"contao-community-alliance/composer-plugin":"~2.0",
 		"contao-legacy/associategroups":">=1.2.1"
 	},
