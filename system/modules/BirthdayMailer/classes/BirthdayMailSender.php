@@ -154,7 +154,7 @@ class BirthdayMailSender extends \Backend
 					foreach ($GLOBALS['TL_HOOKS']['birthdayMailerAbortSendMail'] as $callback)
 					{
 						$this->import($callback[0]);
-						$blnAbortSendMail = $this->$callback[0]->{$callback[1]}($config, $blnAbortSendMail);
+						$blnAbortSendMail = $this->{$callback[0]}->{$callback[1]}($config, $blnAbortSendMail);
 					}
 				}
 				
@@ -395,7 +395,7 @@ class BirthdayMailSender extends \Backend
 							break;
 							
 						default:
-							$textArray[$count] = $config->$parts[1];
+							$textArray[$count] = $config->{$parts[1]};
 							break;
 					}
 					break;
