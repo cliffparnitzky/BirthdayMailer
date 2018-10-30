@@ -3,7 +3,7 @@
 	"description":"Sends a birthday email to all the members having their birthday on the current day.",
 	"keywords":["contao", "birthday", "birthdaymail", "members", "email"],
 	"type":"contao-module",
-	"license":"LGPL-3.0+",
+	"license":"LGPL-3.0-or-later",
 	"authors":[
 		{
 			"name":"Cliff Parnitzky",
