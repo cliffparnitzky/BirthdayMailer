@@ -13,8 +13,8 @@
 	],
 	"support":{
 		"email":"contao@cliff-parnitzky.de",
-		"issues":"https://github.com/cliffparnitzky/BirthdayLister/issues",
-		"source":"https://github.com/cliffparnitzky/BirthdayLister"
+		"issues":"https://github.com/cliffparnitzky/BirthdayMailer/issues",
+		"source":"https://github.com/cliffparnitzky/BirthdayMailer"
 	},
 	"require":{
 		"php":">=5.3",
