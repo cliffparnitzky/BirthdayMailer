@@ -1,37 +1,40 @@
 {
-	"name":"cliffparnitzky/birthday-mailer",
-	"description":"Sends a birthday email to all the members having their birthday on the current day.",
-	"keywords":["contao", "birthday", "birthdaymail", "members", "email"],
-	"type":"contao-module",
-	"license":"LGPL-3.0-or-later",
-	"authors":[
+	"name": "cliffparnitzky/birthday-mailer",
+	"description": "Sends a birthday email to all the members having their birthday on the current day.",
+	"keywords": [
+		"contao",
+		"birthday",
+		"birthdaymail",
+		"members",
+		"email"
+	],
+	"type": "contao-module",
+	"license": "LGPL-3.0-or-later",
+	"authors": [
 		{
-			"name":"Cliff Parnitzky",
-			"email":"contao@cliff-parnitzky.de",
-			"role":"Developer"
+			"name": "Cliff Parnitzky",
+			"email": "contao@cliff-parnitzky.de",
+			"role": "Developer"
 		}
 	],
-	"support":{
-		"email":"contao@cliff-parnitzky.de",
-		"issues":"https://github.com/cliffparnitzky/BirthdayMailer/issues",
-		"source":"https://github.com/cliffparnitzky/BirthdayMailer"
+	"support": {
+		"email": "contao@cliff-parnitzky.de",
+		"issues": "https://github.com/cliffparnitzky/BirthdayMailer/issues",
+		"source": "https://github.com/cliffparnitzky/BirthdayMailer"
 	},
-	"require":{
-		"php":">=5.3",
-		"contao/core-bundle":"~3.2 || ~4.4",
-		"contao-community-alliance/composer-plugin":"~2.4 || ~3.0",
-		"friends-of-contao/contao-associategroups":"~1.3"
-	},
-	"conflict": {
-		"contao/core":"3.4.0,3.4.1,3.4.2"
+	"require": {
+		"php": ">=5.3",
+		"contao/core-bundle": "~3.2 || ~4.4",
+		"contao-community-alliance/composer-plugin": "~2.4 || ~3.0",
+		"friends-of-contao/contao-associategroups": "~1.3"
 	},
 	"replace": {
-		"contao-legacy/birthdaymailer":"*"
+		"contao-legacy/birthdaymailer": "*"
 	},
-	"extra":{
-		"contao":{
-			"sources":{
-				"system/modules/BirthdayMailer":"system/modules/BirthdayMailer"
+	"extra": {
+		"contao": {
+			"sources": {
+				"system/modules/BirthdayMailer": "system/modules/BirthdayMailer"
 			}
 		},
 		"branch-alias": {
